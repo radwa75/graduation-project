@@ -1,0 +1,70 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dart",
+			"command": "dart",
+			"cwd": "",
+			"args": [
+				"doc",
+				"."
+			],
+			"problemMatcher": [],
+			"label": "dart: dart doc .",
+			"detail": ""
+		},
+		{
+			"type": "java (build)",
+			"paths": [
+				"${workspace}"
+			],
+			"isFullBuild": true,
+			"group": "build",
+			"problemMatcher": [],
+			"label": "java (build): Build Workspace",
+			"detail": "$(tools) Build all the Java projects in workspace."
+		},
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"build",
+				"aar"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "flutter: flutter build aar",
+			"detail": ""
+		},
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"build",
+				"apk"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "flutter: flutter build apk",
+			"detail": ""
+		},
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"build",
+				"bundle"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "flutter: flutter build bundle",
+			"detail": ""
+		},
+		{
+			"type": "Live Preview",
+			"workspacePath": "c:\\Users\\HP\\Desktop\\flutter_apps\\sasa",
+			"problemMatcher": [],
+			"label": "Live Preview: Run Server"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "226373583280",
+    "project_id": "chatinsasa",
+    "storage_bucket": "chatinsasa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226373583280:android:f4be17b1e1af694f7f9675",
+        "android_client_info": {
+          "package_name": "com.example.sasa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdPz3y-zUki8PJ1snXnFhopqpoqXaX7LI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
